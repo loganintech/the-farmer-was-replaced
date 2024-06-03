@@ -7,6 +7,7 @@ pumpkin_target = 3000
 
 while True:
 	if num_items(Items.Pumpkin) > 100:
+		full_harvest()
 		do_maze()
 	
 	goto(0, 0)
